@@ -1,0 +1,127 @@
+{C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Sign_Extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Sign_Extend.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_Sign_Extend
+-- Compiling architecture arch of Akram_11_14_2021_Sign_Extend
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_MAR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_MAR.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_MAR
+-- Compiling architecture arch of Akram_11_14_2021_MAR
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_IMM16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_IMM16.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Akram_11_14_2021_IMM16
+-- Compiling architecture arch of Akram_11_14_2021_IMM16
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Bitwise_OP.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 7\Akram_11_14_2021_Bitwise_OP.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_Bitwise_OP
+-- Compiling architecture arch of Akram_11_14_2021_Bitwise_OP
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_3_PORT_RAM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_3_PORT_RAM.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_3_PORT_RAM
+-- Compiling architecture behavior of Akram_11_14_2021_3_PORT_RAM
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Instruction_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Instruction_Register.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_Instruction_Register
+-- Compiling architecture behavior of Akram_11_14_2021_Instruction_Register
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 7\Akram_11_14_2021_ALU.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_ALU
+-- Compiling architecture arch of Akram_11_14_2021_ALU
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Data_Memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Data_Memory.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_Data_Memory
+-- Compiling architecture behavior of Akram_11_14_2021_Data_Memory
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_MDR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_MDR.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Akram_11_14_2021_MDR
+-- Compiling architecture arch of Akram_11_14_2021_MDR
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_9_19_2021_n_Bit_Add_sub_Flags.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_9_19_2021_n_Bit_Add_sub_Flags.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Akram_9_19_2021_N_Bit_Add_Sub_Flags
+-- Compiling architecture BEHAV_nBASF of Akram_9_19_2021_N_Bit_Add_Sub_Flags
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RS.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RS.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Akram_11_14_2021_RS
+-- Compiling architecture arch of Akram_11_14_2021_RS
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RT.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Akram_11_14_2021_RT
+-- Compiling architecture arch of Akram_11_14_2021_RT
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 7\Akram_11_14_2021_RD.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Akram_11_14_2021_RD
+-- Compiling architecture arch of Akram_11_14_2021_RD
+
+} {} {}}

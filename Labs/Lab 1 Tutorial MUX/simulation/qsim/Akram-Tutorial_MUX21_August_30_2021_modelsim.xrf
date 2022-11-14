@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.bdf
+source_file = 1, C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram_21MUX.bdf
+source_file = 1, C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram_21MUX_Simulation.vwf
+source_file = 1, C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/db/Akram-Tutorial_MUX21_August_30_2021.cbx.xml
+design_name = Akram_21MUX
+instance = comp, \OUT_Z~output , OUT_Z~output, Akram_21MUX, 1
+instance = comp, \IN_S~input , IN_S~input, Akram_21MUX, 1
+instance = comp, \IN_A~input , IN_A~input, Akram_21MUX, 1
+instance = comp, \IN_B~input , IN_B~input, Akram_21MUX, 1
+instance = comp, \AKRA_21MUX|AKRA_gate4~0 , AKRA_21MUX|AKRA_gate4~0, Akram_21MUX, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Akram_21MUX, 1

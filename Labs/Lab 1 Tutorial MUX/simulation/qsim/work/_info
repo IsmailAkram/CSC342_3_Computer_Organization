@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/simulation/qsim
+vAkram_21MUX
+Z1 !s110 1630509097
+!i10b 1
+!s100 k<a9@a]nDQ0Onb=T2Q@5U2
+Ima`2NHW7T:>aiT7nmXTIX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1630509096
+8Akram-Tutorial_MUX21_August_30_2021.vo
+FAkram-Tutorial_MUX21_August_30_2021.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1630509097.000000
+!s107 Akram-Tutorial_MUX21_August_30_2021.vo|
+!s90 -work|work|Akram-Tutorial_MUX21_August_30_2021.vo|
+!i113 1
+Z5 o-work work
+n@akram_21@m@u@x
+vAkram_21MUX_vlg_vec_tst
+R1
+!i10b 1
+!s100 omC16IR@]ZbI:nSMokoB80
+IDJVRThTE0PlGNWmOXLAF43
+R2
+R0
+w1630509094
+8Akram_21MUX_Simulation.vwf.vt
+FAkram_21MUX_Simulation.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Akram_21MUX_Simulation.vwf.vt|
+!s90 -work|work|Akram_21MUX_Simulation.vwf.vt|
+!i113 1
+R5
+n@akram_21@m@u@x_vlg_vec_tst

@@ -1,0 +1,21 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Akram_clock'
+Slack : -2.174
+TNS   : -55.849
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Akram_clock'
+Slack : -2.174
+TNS   : -55.799
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Akram_clock'
+Slack : -2.174
+TNS   : -55.520
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Akram_clock'
+Slack : -2.174
+TNS   : -55.530
+
+------------------------------------------------------------

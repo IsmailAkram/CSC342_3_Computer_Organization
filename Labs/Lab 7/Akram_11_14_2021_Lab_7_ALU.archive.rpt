@@ -1,0 +1,92 @@
+Archive Project report for Akram_11_14_2021_Lab_7_ALU
+Sun Nov 14 18:46:57 2021
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Nov 14 18:46:57 2021 ;
+; Revision Name          ; Akram_11_14_2021_Lab_7_ALU            ;
+; Top-level Entity Name  ; Akram_11_14_2021_Data_Memory          ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Lab_7_ALU.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Akram_11_14_2021_Lab_7_ALU.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera_lite/16.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4994 megabytes
+    Info: Processing ended: Sun Nov 14 18:46:57 2021
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------------------------------+
+; Files Archived                                            ;
++-----------------------------------------------------------+
+; File Name                                                 ;
++-----------------------------------------------------------+
+; ../Lab 6/Akram_10_15_2021_Lab_6_Register_File.mif         ;
+; Akram_9_19_2021_n_Bit_Add_sub_Flags.vhd                   ;
+; Akram_11_14_2021_3_PORT_RAM.vhd                           ;
+; Akram_11_14_2021_ALU.vhd                                  ;
+; Akram_11_14_2021_Bitwise_OP.vhd                           ;
+; Akram_11_14_2021_Data_Memory.vhd                          ;
+; Akram_11_14_2021_IMM16.vhd                                ;
+; Akram_11_14_2021_Instruction_Register.vhd                 ;
+; Akram_11_14_2021_Lab_7_ALU.qpf                            ;
+; Akram_11_14_2021_Lab_7_ALU.qsf                            ;
+; Akram_11_14_2021_MAR.vhd                                  ;
+; Akram_11_14_2021_MDR.vhd                                  ;
+; Akram_11_14_2021_RD.vhd                                   ;
+; Akram_11_14_2021_RS.vhd                                   ;
+; Akram_11_14_2021_RT.vhd                                   ;
+; Akram_11_14_2021_Sign_Extend.vhd                          ;
+; c:/altera_lite/16.0/quartus/bin64/assignment_defaults.qdf ;
++-----------------------------------------------------------+
+
+

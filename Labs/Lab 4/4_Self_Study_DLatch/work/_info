@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+Eakram_10_3_2021_dff_vhdl
+Z0 w1633305277
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch
+Z4 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DFF_VHDL.vhd
+Z5 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DFF_VHDL.vhd
+l0
+L25
+Vjg4HOAUYGJE5YL0mS=e4f1
+!s100 5GoXAeeelmldF4o]UU=f23
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1633305345
+!i10b 1
+Z8 !s108 1633305345.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DFF_VHDL.vhd|
+Z10 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DFF_VHDL.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Abdf_type
+R1
+R2
+DEx4 work 24 akram_10_3_2021_dff_vhdl 0 22 jg4HOAUYGJE5YL0mS=e4f1
+l40
+L36
+VCzh5[JzU_60EChG]o^GV83
+!s100 @NPQUWb9TE0lEb^3U8`?=0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eakram_10_3_2021_dlatch_vhdl
+Z13 w1633301742
+R1
+R2
+R3
+Z14 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DLatch_VHDL.vhd
+Z15 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DLatch_VHDL.vhd
+l0
+L25
+V2nAdbVe3jcVN^g5X]3_l92
+!s100 jzcQLcoPMG1O4BL_kU9:J3
+R6
+32
+Z16 !s110 1633301870
+!i10b 1
+Z17 !s108 1633301870.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DLatch_VHDL.vhd|
+Z19 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Self_Study_DLatch/Akram_10_3_2021_DLatch_VHDL.vhd|
+!i113 1
+R11
+R12
+Abdf_type
+R1
+R2
+DEx4 work 27 akram_10_3_2021_dlatch_vhdl 0 22 2nAdbVe3jcVN^g5X]3_l92
+l40
+L36
+VEIdh?bN5=V0HhK4gzBDEK1
+!s100 ]hn`S4mBL76Jm?jSS;AAJ2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

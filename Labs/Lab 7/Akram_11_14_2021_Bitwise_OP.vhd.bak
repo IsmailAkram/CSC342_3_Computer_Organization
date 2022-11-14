@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+use ieee.numeric_std.all;
+
+entity Akram_11_14_2021_Bitwise_OP is
+    generic(n: integer := 32);
+    port(
+        Akram_input_1, Akram_input_2, Akram_ext				: in std_logic_vector(n-1 downto 0);
+        Akram_imm														: in std_logic_vector(15 downto 0); -- 16-bit
+        Akram_op														: in std_logic_vector(3 downto 0); -- 4-bit
+        Akram_out														: out std_logic_vector(n-1 downto 0));
+end Akram_11_14_2021_Bitwise_OP;
+
+architecture arch of Akram_11_14_2021_Bitwise_OP is
+
+    signal Akram_Result												: std_logic_vector(31 downto 0);
+    
+    begin
+        p: process(Akram_input_1, Akram_input_2, Akram_ext, Akram_op, Akram_Result)
+            begin
+                case Akram_op is -- 4-bit operation code {0000} from "green pages"
+                    when "0110" => Akram_result <= Akram_input_1 AND Akram_input_2;
+						  when "0111" => Akram_result <= Akram_input_1 AND Akram_ext; -- addi
+						  when "1000" => Akram_result <= Akram_input_1 NOR Akram_input_2;
+                    when "1001" => Akram_result <= Akram_input_1 OR Akram_input_2;                    
+                    when "1010" => Akram_result <= Akram_input_1 OR Akram_ext; -- ori
+                    when "1011" => Akram_result <= std_logic_vector(shift_left(unsigned(Akram_input_2), to_integer(unsigned(Akram_imm)))); --sll
+                    when "1100" => Akram_result <= std_logic_vector(shift_right(unsigned(Akram_input_2), to_integer(unsigned(Akram_imm)))); --srl
+                    when "1101" => Akram_result <= std_logic_vector(shift_left(unsigned(Akram_input_2), to_integer(unsigned(Akram_imm)))); --sra
+                    when others => Akram_result <= x"00000000";
+                end case;
+                
+        Akram_out <= Akram_result;
+        end process;
+end arch;

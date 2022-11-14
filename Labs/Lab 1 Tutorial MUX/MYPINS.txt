@@ -1,0 +1,5 @@
+To, Location
+IN_A, PIN_AB12
+IN_B, PIN_AC12
+IN_S, PIN_AF9
+OUT_Z, PIN_V16

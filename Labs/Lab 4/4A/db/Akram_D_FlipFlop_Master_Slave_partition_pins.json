@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AKRA_Q",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_PRN",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_D",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

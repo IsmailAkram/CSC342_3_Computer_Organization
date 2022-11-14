@@ -1,0 +1,143 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Akram_12_20_2021_Control_Unit is
+	port(
+		Akram_opcode: in std_logic_vector(2 downto 0);
+		Akram_rst: in std_logic;
+		Akram_reg_dst, Akram_mem_to_reg, Akram_alu_op: out std_logic_vector(1 downto 0);
+		Akram_jump, Akram_branch, Akram_mem_read,Akram_mem_write, Akram_alu_src,Akram_reg_write,Akram_ext: out std_logic
+	);
+	
+end Akram_12_20_2021_Control_Unit;
+
+architecture arch of Akram_12_20_2021_Control_Unit is
+
+begin
+	process(Akram_rst,Akram_opcode)
+		begin
+			if(Akram_rst = '1') then
+				Akram_reg_dst <= "00";
+				Akram_mem_to_reg <= "00"; --register location
+				Akram_alu_op <= "00";
+				Akram_jump <= '0';
+				Akram_branch <= '0';
+				Akram_mem_read <= '0'; --read enabled/disabled
+				Akram_mem_write <= '0';--write enabled/disabled
+				Akram_alu_src <= '0';
+				Akram_reg_write <= '0';
+				Akram_ext <= '1';
+			else
+				case Akram_opcode is
+					when "000" => --we add
+						Akram_reg_dst <= "01";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "00";
+						Akram_jump <= '0';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '0';
+						Akram_reg_write <= '1';
+						Akram_ext <= '1';
+						
+					when "001" => --sliu
+						Akram_reg_dst <= "00";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "10";
+						Akram_jump <= '0';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '1';
+						Akram_reg_write <= '1';
+						Akram_ext <= '0';
+					
+					when "010" => --jump
+						Akram_reg_dst <= "00";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "00";
+						Akram_jump <= '1';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '0';
+						Akram_reg_write <= '0';
+						Akram_ext <= '1';
+					
+					when "011" => --jal
+						Akram_reg_dst <= "10";
+						Akram_mem_to_reg <= "10"; --register location
+						Akram_alu_op <= "00";
+						Akram_jump <= '1';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '0';
+						Akram_reg_write <= '1';
+						Akram_ext <= '1';
+						
+					when "100" => --lw
+						Akram_reg_dst <= "00";
+						Akram_mem_to_reg <= "01"; --register location
+						Akram_alu_op <= "11";
+						Akram_jump <= '0';
+						Akram_branch <= '0';
+						Akram_mem_read <= '1'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '1';
+						Akram_reg_write <= '0';
+						Akram_ext <= '1';
+						
+					when "101" => --sw
+						Akram_reg_dst <= "00";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "11";
+						Akram_jump <= '0';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '1';--write enabled/disabled
+						Akram_alu_src <= '1';
+						Akram_reg_write <= '1';
+						Akram_ext <= '1';
+					
+					when "110" => --beq
+						Akram_reg_dst <= "00";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "01";
+						Akram_jump <= '0';
+						Akram_branch <= '1';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '0';
+						Akram_reg_write <= '0';
+						Akram_ext <= '1';
+						
+					when "111" => --addi
+						Akram_reg_dst <= "00";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "11";
+						Akram_jump <= '0';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '1';
+						Akram_reg_write <= '1';
+						Akram_ext <= '1';
+						
+					when others =>
+						Akram_reg_dst <= "01";
+						Akram_mem_to_reg <= "00"; --register location
+						Akram_alu_op <= "00";
+						Akram_jump <= '0';
+						Akram_branch <= '0';
+						Akram_mem_read <= '0'; --read enabled/disabled
+						Akram_mem_write <= '0';--write enabled/disabled
+						Akram_alu_src <= '0';
+						Akram_reg_write <= '1';
+						Akram_ext <= '1';
+				end case;
+			end if;
+		end process;
+		
+end arch;

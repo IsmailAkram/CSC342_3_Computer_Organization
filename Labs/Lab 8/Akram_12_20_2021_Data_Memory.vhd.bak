@@ -1,0 +1,35 @@
+library ieee;
+use ieee.STD_LOGIC_1164.all;
+use ieee.numeric_std.all;
+
+entity Akram_12_20_2021_Data_Memory is
+    port(
+        Akram_CLK: in std_logic;
+        Akram_mem_address: in std_logic_vector(31 downto 0);
+        Akram_write_data: in std_logic_vector(31 downto 0);
+        Akram_write_en, Akram_read_en: in std_logic;
+        Akram_data: out std_logic_vector(31 downto 0)
+    );
+end Akram_12_20_2021_Data_Memory;
+
+architecture arch of Akram_12_20_2021_Data_Memory is
+
+    signal Akram_address: std_logic_vector(7 downto 0);
+    type Akram_data_mem is array (0 to 15) of std_logic_vector(31 downto 0);
+    signal RAM: Akram_data_mem :=((others=> (others=>'0')));
+    
+    begin
+    
+        Akram_address <= Akram_mem_address(8 downto 1);
+        
+        process(Akram_CLK)
+        begin
+            if(rising_edge(Akram_CLK)) then
+                if(Akram_write_en = '1') then
+                    ram(to_integer(unsigned(Akram_address))) <= Akram_write_data;
+                end if;
+            end if;
+        end process;
+        
+        Akram_data <= ram(to_integer(unsigned(Akram_address))) when (Akram_read_en = '1') else x"00000000";
+end arch;

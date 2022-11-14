@@ -1,0 +1,72 @@
+# Reading C:/altera/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Akram_10_11_2021_Memory_Blocks_3_Port_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:39:27 on Oct 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity ram32x4_port_3
+# -- Compiling architecture SYN of ram32x4_port_3
+# End time: 18:39:27 on Oct 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript -do Akram_10_11_2021_Memory_Blocks_3_Port_run_msim_rtl_vhdl.do work.ram32x4_port_3
+# vsim -gui -l msim_transcript -do "Akram_10_11_2021_Memory_Blocks_3_Port_run_msim_rtl_vhdl.do" work.ram32x4_port_3 
+# Start time: 18:40:27 on Oct 11,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.ram32x4_port_3(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# do Akram_10_11_2021_Memory_Blocks_3_Port_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:40:29 on Oct 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity ram32x4_port_3
+# -- Compiling architecture SYN of ram32x4_port_3
+# End time: 18:40:29 on Oct 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+add wave -position end  sim:/ram32x4_port_3/address_a
+add wave -position end  sim:/ram32x4_port_3/address_b
+add wave -position end  sim:/ram32x4_port_3/clock
+add wave -position end  sim:/ram32x4_port_3/data_a
+add wave -position end  sim:/ram32x4_port_3/rden_a
+add wave -position end  sim:/ram32x4_port_3/rden_b
+add wave -position end  sim:/ram32x4_port_3/wren_a
+add wave -position end  sim:/ram32x4_port_3/q_a
+add wave -position end  sim:/ram32x4_port_3/q_b
+# End time: 13:40:42 on Oct 12,2021, Elapsed time: 19:00:15
+# Errors: 0, Warnings: 0

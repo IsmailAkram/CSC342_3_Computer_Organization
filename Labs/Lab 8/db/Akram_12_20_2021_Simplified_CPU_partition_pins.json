@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Akram_PC_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_PC_out[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_ALU_result[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_reset",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

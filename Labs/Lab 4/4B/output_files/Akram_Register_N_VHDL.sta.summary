@@ -1,0 +1,69 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'chen'
+Slack : -3.381
+TNS   : -78.434
+
+Type  : Slow 1100mV 85C Model Hold 'chen'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -17.103
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'chen'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'chen'
+Slack : -3.305
+TNS   : -82.389
+
+Type  : Slow 1100mV 0C Model Hold 'chen'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -18.273
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'chen'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'chen'
+Slack : -2.339
+TNS   : -33.752
+
+Type  : Fast 1100mV 85C Model Hold 'chen'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.081
+TNS   : -2.562
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'chen'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'chen'
+Slack : -2.126
+TNS   : -30.426
+
+Type  : Fast 1100mV 0C Model Hold 'chen'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.084
+TNS   : -2.623
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'chen'
+Slack : 0.035
+TNS   : 0.000
+
+------------------------------------------------------------

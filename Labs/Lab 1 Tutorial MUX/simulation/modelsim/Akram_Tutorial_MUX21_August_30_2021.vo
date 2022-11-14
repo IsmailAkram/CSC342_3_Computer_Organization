@@ -1,0 +1,163 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition"
+
+// DATE "09/01/2021 18:18:31"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Tutorial_LPM_MUX (
+	data0,
+	data1,
+	sel,
+	result);
+input 	data0;
+input 	data1;
+input 	sel;
+output 	result;
+
+// Design Ports Information
+// result	=>  Location: PIN_P6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// data1	=>  Location: PIN_W9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sel	=>  Location: PIN_N6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// data0	=>  Location: PIN_W8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \sel~input_o ;
+wire \data1~input_o ;
+wire \data0~input_o ;
+wire \LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0_combout ;
+
+
+// Location: IOOBUF_X4_Y0_N19
+cyclonev_io_obuf \result~output (
+	.i(\LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(result),
+	.obar());
+// synopsys translate_off
+defparam \result~output .bus_hold = "false";
+defparam \result~output .open_drain_output = "false";
+defparam \result~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X4_Y0_N1
+cyclonev_io_ibuf \sel~input (
+	.i(sel),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\sel~input_o ));
+// synopsys translate_off
+defparam \sel~input .bus_hold = "false";
+defparam \sel~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X4_Y0_N35
+cyclonev_io_ibuf \data1~input (
+	.i(data1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\data1~input_o ));
+// synopsys translate_off
+defparam \data1~input .bus_hold = "false";
+defparam \data1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X4_Y0_N52
+cyclonev_io_ibuf \data0~input (
+	.i(data0),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\data0~input_o ));
+// synopsys translate_off
+defparam \data0~input .bus_hold = "false";
+defparam \data0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X4_Y1_N30
+cyclonev_lcell_comb \LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0 (
+// Equation(s):
+// \LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0_combout  = ( \data0~input_o  & ( (!\sel~input_o ) # (\data1~input_o ) ) ) # ( !\data0~input_o  & ( (\sel~input_o  & \data1~input_o ) ) )
+
+	.dataa(gnd),
+	.datab(!\sel~input_o ),
+	.datac(!\data1~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(!\data0~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0 .extended_lut = "off";
+defparam \LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0 .lut_mask = 64'h03030303CFCFCFCF;
+defparam \LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0 .shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X23_Y19_N0
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

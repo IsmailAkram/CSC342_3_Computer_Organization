@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wren",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress_b[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

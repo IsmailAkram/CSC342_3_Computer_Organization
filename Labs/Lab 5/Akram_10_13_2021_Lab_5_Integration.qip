@@ -1,0 +1,5 @@
+set_global_assignment -name IP_TOOL_NAME "RAM: 2-PORT"
+set_global_assignment -name IP_TOOL_VERSION "16.0"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone V}"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "Akram_10_13_2021_Lab_5_Integration.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "Akram_10_13_2021_Lab_5_Integration.cmp"]

@@ -1,0 +1,25 @@
+|Tutorial_LPM_MUX
+data0 => LPM_MUX:LPM_MUX_component.DATA[0][0]
+data1 => LPM_MUX:LPM_MUX_component.DATA[1][0]
+sel => LPM_MUX:LPM_MUX_component.SEL[0]
+result <= LPM_MUX:LPM_MUX_component.RESULT[0]
+
+
+|Tutorial_LPM_MUX|LPM_MUX:LPM_MUX_component
+data[0][0] => mux_40e:auto_generated.data[0]
+data[1][0] => mux_40e:auto_generated.data[1]
+sel[0] => mux_40e:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_40e:auto_generated.result[0]
+
+
+|Tutorial_LPM_MUX|LPM_MUX:LPM_MUX_component|mux_40e:auto_generated
+data[0] => l1_w0_n0_mux_dataout.IN1
+data[1] => l1_w0_n0_mux_dataout.IN1
+result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout.IN0
+sel[0] => _.IN0
+
+

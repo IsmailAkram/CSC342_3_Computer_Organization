@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Akram_q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_wren",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_clock",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_wraddress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_wraddress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_wraddress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_wraddress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_wraddress[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_rdaddress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_rdaddress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_rdaddress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_rdaddress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_rdaddress[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Akram_data[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

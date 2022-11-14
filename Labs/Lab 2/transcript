@@ -1,0 +1,442 @@
+# Loading project AKRAM_9_1_2021_one_bit_comparator
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# Compile of equal.vhd failed with 4 errors.
+# reading C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project equal
+# reading C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project AKRAM_9_1_2021_one_bit_comparator
+# Compile of equal.vhd was successful.
+vsim work.equal
+# vsim work.equal 
+# Start time: 13:24:35 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.equal(arch)
+vsim work.equal
+# End time: 13:29:43 on Sep 01,2021, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 0
+# vsim work.equal 
+# Start time: 13:29:43 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.equal(arch)
+add wave -position end  sim:/equal/I0
+add wave -position end  sim:/equal/I1
+add wave -position end  sim:/equal/Eq
+add wave -position end  sim:/equal/p0
+add wave -position end  sim:/equal/p1
+force -freeze sim:/equal/I0 0 0
+force -freeze sim:/equal/I1 0 0
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+force -freeze sim:/equal/I0 0 0
+force -freeze sim:/equal/I1 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/equal/I0 1 0
+run
+force -freeze sim:/equal/I1 1 0
+force -freeze sim:/equal/I1 1 0
+run
+force -freeze sim:/equal/I1 0 0
+run
+force -freeze sim:/equal/I1 1 0
+force -freeze sim:/equal/I0 0 0
+run
+restart
+force -freeze sim:/equal/I0 0 0
+force -freeze sim:/equal/I1 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/equal/I0 1 0
+run
+force -freeze sim:/equal/I1 1 0
+run
+force -freeze sim:/equal/I1 0 0
+force -freeze sim:/equal/I0 0 0
+force -freeze sim:/equal/I1 1 0
+run
+quit -sim
+# End time: 13:58:02 on Sep 01,2021, Elapsed time: 0:28:19
+# Errors: 0, Warnings: 0
+# Compile of test_equal.vhd failed with 1 errors.
+# Compile of test_equal.vhd was successful.
+vsim work.test_equal
+# vsim work.test_equal 
+# Start time: 14:55:14 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_equal(arch_test)
+# Loading work.equal(arch)
+add wave -position insertpoint sim:/test_equal/*
+quit -sim
+# End time: 14:56:22 on Sep 01,2021, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
+vsim work.test_equal
+# vsim work.test_equal 
+# Start time: 14:56:28 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_equal(arch_test)
+# Loading work.equal(arch)
+add wave -position insertpoint sim:/test_equal/*
+run
+force -freeze sim:/test_equal/p0 0 0
+run
+force -freeze sim:/test_equal/p1 1 0
+run
+force -freeze sim:/test_equal/p0 1 0
+run
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Failure: No errors detected. Simulation sucessful
+#    Time: 804 ns  Iteration: 0  Process: /test_equal/line__21 File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/test_equal.vhd
+# Break in Process line__21 at C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/test_equal.vhd line 58
+quit -sim
+# End time: 15:07:08 on Sep 01,2021, Elapsed time: 0:10:40
+# Errors: 0, Warnings: 0
+# reading C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Akram_9_1_2021_2_bit_comparator
+# reading C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Akram_9_1_2021_Two_Bit_Comparator
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 3 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd failed with 2 errors.
+# Compile of two_bit_equal.vhd was successful.
+# Compile of test_two_bit_equal.vhd was successful.
+# Load canceled
+vsim work.two_bit_equal
+# vsim work.two_bit_equal 
+# Start time: 16:36:40 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal(arch)
+quit -sim
+vsim work.two_bit_equal
+# End time: 16:36:58 on Sep 01,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim work.two_bit_equal 
+# Start time: 16:36:58 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal(arch)
+add wave -position insertpoint sim:/two_bit_equal/*
+run -all
+run -all
+run -all
+quit -sim
+# End time: 16:38:48 on Sep 01,2021, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
+# Compile of two_bit_equal.vhd was successful.
+vsim work.two_bit_equal
+# vsim work.two_bit_equal 
+# Start time: 16:39:24 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal(arch)
+add wave -position insertpoint sim:/two_bit_equal/*
+run -all
+force -freeze sim:/two_bit_equal/a(1) 0 0
+force -freeze sim:/two_bit_equal/a(0) 0 0
+force -freeze sim:/two_bit_equal/a(1) 0 0
+force -freeze sim:/two_bit_equal/b(1) 0 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+run -all
+run -all
+run -all
+run
+run -all
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/two_bit_equal/a(1) 0 0
+force -freeze sim:/two_bit_equal/a(0) 0 0
+force -freeze sim:/two_bit_equal/b(1) 0 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+run -all
+run -all
+run -all
+run -all
+force -freeze sim:/two_bit_equal/a(1) 1 0
+run
+force -freeze sim:/two_bit_equal/a(0) 1 0
+run
+restart
+force -freeze sim:/two_bit_equal/a(1) 0 0
+force -freeze sim:/two_bit_equal/a(0) 0 0
+force -freeze sim:/two_bit_equal/b(1) 0 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run -all
+run -all
+run -all
+run -continue
+run -all
+run -all
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/b(1) 1 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/a(0) 1 0
+force -freeze sim:/two_bit_equal/b(1) 0 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/b(1) 1 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/a(1) 1 0
+force -freeze sim:/two_bit_equal/a(0) 0 0
+force -freeze sim:/two_bit_equal/b(1) 0 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/a(0) 1 0
+force -freeze sim:/two_bit_equal/a(0) 0 0
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/b(1) 1 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/a(0) 1 0
+force -freeze sim:/two_bit_equal/b(1) 0 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal/b(1) 1 0
+force -freeze sim:/two_bit_equal/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal/b(0) 1 0
+run
+quit -sim
+# End time: 16:52:16 on Sep 01,2021, Elapsed time: 0:12:52
+# Errors: 0, Warnings: 0
+vsim work.test_two_bit_equal
+# vsim work.test_two_bit_equal 
+# Start time: 16:54:44 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_two_bit_equal(arch_test)
+# Loading work.two_bit_equal(arch)
+add wave -position insertpoint sim:/test_two_bit_equal/*
+run -all
+# ** Failure: Error detected
+#    Time: 1608 ns  Iteration: 0  Process: /test_two_bit_equal/line__22 File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/test_two_bit_equal.vhd
+# Break in Process line__22 at C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/test_two_bit_equal.vhd line 99
+quit -sim
+# End time: 16:58:31 on Sep 01,2021, Elapsed time: 0:03:47
+# Errors: 1, Warnings: 0
+# Compile of two_bit_equal_port.vhd failed with 1 errors.
+# Compile of two_bit_equal_port.vhd was successful.
+vsim work.two_bit_equal_port
+# vsim work.two_bit_equal_port 
+# Start time: 17:09:56 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal_port(arch)
+# ** Warning: (vsim-3473) Component instance "H1 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+# ** Warning: (vsim-3473) Component instance "H2 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+quit -sim
+# End time: 17:10:07 on Sep 01,2021, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 2
+vsim work.two_bit_equal_port
+# vsim work.two_bit_equal_port 
+# Start time: 17:10:17 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal_port(arch)
+# ** Warning: (vsim-3473) Component instance "H1 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+# ** Warning: (vsim-3473) Component instance "H2 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+add wave -position end  sim:/two_bit_equal_port/a
+add wave -position end  sim:/two_bit_equal_port/b
+add wave -position end  sim:/two_bit_equal_port/aeqb
+add wave -position end  sim:/two_bit_equal_port/e0
+add wave -position end  sim:/two_bit_equal_port/e1
+add wave -position insertpoint sim:/two_bit_equal_port/*
+run -all
+force -freeze sim:/two_bit_equal_port/a(1) 0 0
+force -freeze sim:/two_bit_equal_port/a(1) 0 0
+force -freeze sim:/two_bit_equal_port/a(0) 0 0
+force -freeze sim:/two_bit_equal_port/b(1) 0 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/aeqb 0 0
+force -freeze sim:/two_bit_equal_port/e0 0 0
+force -freeze sim:/two_bit_equal_port/e1 0 0
+run
+restart
+# ** Warning: (vsim-3473) Component instance "H1 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+# ** Warning: (vsim-3473) Component instance "H2 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+quit -sim
+# End time: 17:13:06 on Sep 01,2021, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 4
+# Compile of two_bit_equal_port.vhd was successful.
+vsim work.two_bit_equal_port
+# vsim work.two_bit_equal_port 
+# Start time: 17:13:28 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal_port(arch)
+# ** Warning: (vsim-3473) Component instance "H1 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+# ** Warning: (vsim-3473) Component instance "H2 : equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /two_bit_equal_port File: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd
+add wave -position insertpoint sim:/two_bit_equal_port/*
+run -all
+force -freeze sim:/two_bit_equal_port/a(1) 0 0
+force -freeze sim:/two_bit_equal_port/a(0) 0 0
+force -freeze sim:/two_bit_equal_port/b(1) 0 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+run -all
+quit -sim
+# End time: 17:18:02 on Sep 01,2021, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2
+# Compile of two_bit_equal_port.vhd was successful.
+# Compile of equal.vhd was successful.
+vsim work.two_bit_equal_port
+# vsim work.two_bit_equal_port 
+# Start time: 17:32:54 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal_port(arch)
+# Loading work.equal(arch)
+quit -sim
+# End time: 17:33:07 on Sep 01,2021, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+vsim work.two_bit_equal_port
+# vsim work.two_bit_equal_port 
+# Start time: 17:33:14 on Sep 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_bit_equal_port(arch)
+# Loading work.equal(arch)
+add wave -position insertpoint sim:/two_bit_equal_port/*
+run -all
+force -freeze sim:/two_bit_equal_port/a(1) 0 0
+force -freeze sim:/two_bit_equal_port/a(0) 0 0
+force -freeze sim:/two_bit_equal_port/b(1) 0 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run -all
+run
+run -all
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/b(1) 1 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/a(0) 1 0
+force -freeze sim:/two_bit_equal_port/b(1) 0 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/b(1) 1 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/a(1) 1 0
+force -freeze sim:/two_bit_equal_port/a(0) 0 0
+force -freeze sim:/two_bit_equal_port/b(1) 0 0
+noforce sim:/two_bit_equal_port/b(0)
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/b(1) 1 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/a(0) 1 0
+force -freeze sim:/two_bit_equal_port/b(1) 0 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+force -freeze sim:/two_bit_equal_port/b(1) 1 0
+force -freeze sim:/two_bit_equal_port/b(0) 0 0
+run
+force -freeze sim:/two_bit_equal_port/b(0) 1 0
+run
+run -all
+# Break key hit
+quit -sim
+# End time: 17:55:21 on Sep 01,2021, Elapsed time: 0:22:07
+# Errors: 0, Warnings: 0

@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2
+Eequal
+Z0 w1630523558
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator
+Z4 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd
+Z5 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd
+l0
+L5
+V^bG0:ij;G7=l<K5PBWo3Q2
+!s100 SPgaZN5bjSkF@l9P^X8El0
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1630531959
+!i10b 1
+Z8 !s108 1630531959.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd|
+Z10 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Aarch
+R1
+R2
+DEx4 work 5 equal 0 22 ^bG0:ij;G7=l<K5PBWo3Q2
+l12
+L10
+VN_Ba_`^eP9ChDe4<nHk]d1
+!s100 NjBn1V^RHb2:D;_WKc01F2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etest_two_bit_equal
+Z13 w1630528147
+R1
+R2
+R3
+Z14 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\test_two_bit_equal.vhd
+Z15 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\test_two_bit_equal.vhd
+l0
+L5
+VW75^9o24i7B^iBMoO7hnO2
+!s100 ]L5i8T54Q[dfjg@zUa<Sb3
+R6
+32
+Z16 !s110 1630528150
+!i10b 1
+Z17 !s108 1630528150.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\test_two_bit_equal.vhd|
+Z19 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\test_two_bit_equal.vhd|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 18 test_two_bit_equal 0 22 W75^9o24i7B^iBMoO7hnO2
+l17
+L8
+V@55:nIW?Hdn^eKV=:E[MT1
+!s100 BIkJ5Ae[5i_AG<m_ihln92
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etwo_bit_equal
+Z20 w1630526799
+R1
+R2
+R3
+Z21 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal.vhd
+Z22 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal.vhd
+l0
+L5
+V6Zb^>=0@jMU>M?jKLPaW71
+!s100 <_9dW;5f28H_LBGoKoD@M3
+R6
+32
+Z23 !s110 1630528751
+!i10b 1
+Z24 !s108 1630528751.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal.vhd|
+Z26 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 13 two_bit_equal 0 22 6Zb^>=0@jMU>M?jKLPaW71
+l13
+L10
+V[0m@M^O6j1ofYNXk<0ECe2
+!s100 5l6Va<XlK57Hm9oejd?M50
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Etwo_bit_equal_port
+Z27 w1630531182
+R1
+R2
+R3
+Z28 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal_port.vhd
+Z29 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal_port.vhd
+l0
+L5
+V?mEB;_IE55BMBU0T?oMGV2
+!s100 lY65XTFM_0PG:fmV:jZFf1
+R6
+32
+Z30 !s110 1630531184
+!i10b 1
+Z31 !s108 1630531184.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal_port.vhd|
+Z33 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal_port.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 18 two_bit_equal_port 0 22 ?mEB;_IE55BMBU0T?oMGV2
+l20
+L11
+VEPLT8Q:4PB1AP3d<`b_T11
+!s100 CI`>PX@6LP]YZN8^QMZ3B3
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12

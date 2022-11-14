@@ -1,0 +1,8 @@
+|Akram_10_3_2021_DLatch
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+D => inst.DATAIN
+E => inst.LATCH_ENABLE
+PRN => inst.PRESET
+
+

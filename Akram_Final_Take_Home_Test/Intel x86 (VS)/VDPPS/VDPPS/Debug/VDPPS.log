@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Exams\Akram_Take_Home_Final_Take_Home_Test\Intel x86 (VS)\VDPPS\VDPPS\Source.cpp(20,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Exams\Akram_Take_Home_Final_Take_Home_Test\Intel x86 (VS)\VDPPS\VDPPS\Source.cpp(21,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Exams\Akram_Take_Home_Final_Take_Home_Test\Intel x86 (VS)\VDPPS\VDPPS\Source.cpp(29,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  VDPPS.vcxproj -> C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Exams\Akram_Take_Home_Final_Take_Home_Test\Intel x86 (VS)\VDPPS\Debug\VDPPS.exe

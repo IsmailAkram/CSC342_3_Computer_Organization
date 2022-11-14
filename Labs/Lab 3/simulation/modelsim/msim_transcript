@@ -1,0 +1,67 @@
+# Reading C:/altera/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Akram_9_19_2021_Half_Adder_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 12:16:18 on Sep 19,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Akram_9_19_2021_Half_Adder
+# -- Compiling architecture BEHAV_HA of Akram_9_19_2021_Half_Adder
+# End time: 12:16:18 on Sep 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript -do Akram_9_19_2021_Half_Adder_run_msim_rtl_vhdl.do work.akram_9_19_2021_half_adder
+# vsim -gui -l msim_transcript -do "Akram_9_19_2021_Half_Adder_run_msim_rtl_vhdl.do" work.akram_9_19_2021_half_adder 
+# Start time: 12:17:29 on Sep 19,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.akram_9_19_2021_half_adder(behav_ha)
+# do Akram_9_19_2021_Half_Adder_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 12:17:32 on Sep 19,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Akram_9_19_2021_Half_Adder
+# -- Compiling architecture BEHAV_HA of Akram_9_19_2021_Half_Adder
+# End time: 12:17:32 on Sep 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+add wave -position insertpoint  \
+sim:/akram_9_19_2021_half_adder/Carry
+add wave -position end  sim:/akram_9_19_2021_half_adder/A
+add wave -position end  sim:/akram_9_19_2021_half_adder/B
+add wave -position end  sim:/akram_9_19_2021_half_adder/Sum
+add wave -position end  sim:/akram_9_19_2021_half_adder/Carry
+run -all
+force -freeze sim:/akram_9_19_2021_half_adder/A 0 0
+force -freeze sim:/akram_9_19_2021_half_adder/B 0 0
+force -freeze sim:/akram_9_19_2021_half_adder/Sum 0 0
+force -freeze sim:/akram_9_19_2021_half_adder/Carry 0 0
+run
+# End time: 12:24:03 on Sep 19,2021, Elapsed time: 0:06:34
+# Errors: 0, Warnings: 0

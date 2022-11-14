@@ -1,0 +1,57 @@
+{C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Akram_9_19_2021_Test_Bench
+-- Compiling architecture behav_tb of Akram_9_19_2021_Test_Bench
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading entity Akram_9_19_2021_N_Bit_Add_sub_Flags
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(15): near ":": (vcom-1576) expecting ',' or ')'.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(16): Statement cannot be labeled.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(16): near "in": syntax error
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(18): Statement cannot be labeled.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(18): near "out": syntax error
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(20): Statement cannot be labeled.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(23): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(24): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(26): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(26): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(26): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(30): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(31): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(33): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(33): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(33): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(36): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(37): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(39): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(39): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(39): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(42): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(43): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(45): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(45): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(45): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(49): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(50): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(52): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(52): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
+
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(52): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd(58): VHDL Compiler exiting
+
+} {13.0 14.0 15.0 23.0 24.0 25.0 26.0 30.0 31.0 32.0 33.0 37.0 38.0 39.0 40.0 44.0 45.0 46.0 47.0 51.0 52.0 53.0 54.0 56.0} {}}

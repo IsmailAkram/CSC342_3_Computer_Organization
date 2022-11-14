@@ -1,0 +1,102 @@
+$comment
+	File created using the following command:
+		vcd file Akram-Tutorial_MUX21_August_30_2021.msim.vcd -direction
+$end
+$date
+	Wed Sep 01 11:11:38 2021
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module Akram_21MUX_vlg_vec_tst $end
+$var reg 1 ! IN_A $end
+$var reg 1 " IN_B $end
+$var reg 1 # IN_S $end
+$var wire 1 $ OUT_Z $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , IN_S~input_o $end
+$var wire 1 - IN_A~input_o $end
+$var wire 1 . IN_B~input_o $end
+$var wire 1 / AKRA_21MUX|AKRA_gate4~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+0/
+$end
+#100000
+1#
+1,
+#200000
+0#
+0,
+#210000
+1"
+1.
+#300000
+1#
+1,
+1/
+1$
+#400000
+1!
+0"
+0#
+1-
+0.
+0,
+#500000
+1#
+1,
+0/
+0$
+#600000
+1"
+0#
+1.
+0,
+1/
+1$
+#700000
+1#
+1,
+#800000
+0!
+0"
+0#
+0-
+0.
+0,
+0/
+0$
+#900000
+1#
+1,
+#1000000

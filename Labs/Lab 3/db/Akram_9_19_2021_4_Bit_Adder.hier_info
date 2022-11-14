@@ -1,0 +1,121 @@
+|Akram_9_19_2021_4_Bit_Adder
+A[0] => Akram_9_19_2021_1_Bit_Full_Adder:FA0.A
+A[1] => Akram_9_19_2021_1_Bit_Full_Adder:FA1.A
+A[2] => Akram_9_19_2021_1_Bit_Full_Adder:FA2.A
+A[3] => Akram_9_19_2021_1_Bit_Full_Adder:FA3.A
+B[0] => Akram_9_19_2021_1_Bit_Full_Adder:FA0.B
+B[1] => Akram_9_19_2021_1_Bit_Full_Adder:FA1.B
+B[2] => Akram_9_19_2021_1_Bit_Full_Adder:FA2.B
+B[3] => Akram_9_19_2021_1_Bit_Full_Adder:FA3.B
+Cin => Akram_9_19_2021_1_Bit_Full_Adder:FA0.Cin
+Sum[0] <= Akram_9_19_2021_1_Bit_Full_Adder:FA0.Sum
+Sum[1] <= Akram_9_19_2021_1_Bit_Full_Adder:FA1.Sum
+Sum[2] <= Akram_9_19_2021_1_Bit_Full_Adder:FA2.Sum
+Sum[3] <= Akram_9_19_2021_1_Bit_Full_Adder:FA3.Sum
+Cout <= Akram_9_19_2021_1_Bit_Full_Adder:FA3.Cout
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA0
+A => Akram_9_19_2021_Half_Adder:HA0.A
+B => Akram_9_19_2021_Half_Adder:HA0.B
+Cin => Akram_9_19_2021_Half_Adder:HA1.A
+Sum <= Akram_9_19_2021_Half_Adder:HA1.Sum
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA0|Akram_9_19_2021_Half_Adder:HA0
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA0|Akram_9_19_2021_Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA1
+A => Akram_9_19_2021_Half_Adder:HA0.A
+B => Akram_9_19_2021_Half_Adder:HA0.B
+Cin => Akram_9_19_2021_Half_Adder:HA1.A
+Sum <= Akram_9_19_2021_Half_Adder:HA1.Sum
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA1|Akram_9_19_2021_Half_Adder:HA0
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA1|Akram_9_19_2021_Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA2
+A => Akram_9_19_2021_Half_Adder:HA0.A
+B => Akram_9_19_2021_Half_Adder:HA0.B
+Cin => Akram_9_19_2021_Half_Adder:HA1.A
+Sum <= Akram_9_19_2021_Half_Adder:HA1.Sum
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA2|Akram_9_19_2021_Half_Adder:HA0
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA2|Akram_9_19_2021_Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA3
+A => Akram_9_19_2021_Half_Adder:HA0.A
+B => Akram_9_19_2021_Half_Adder:HA0.B
+Cin => Akram_9_19_2021_Half_Adder:HA1.A
+Sum <= Akram_9_19_2021_Half_Adder:HA1.Sum
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA3|Akram_9_19_2021_Half_Adder:HA0
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Akram_9_19_2021_4_Bit_Adder|Akram_9_19_2021_1_Bit_Full_Adder:FA3|Akram_9_19_2021_Half_Adder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

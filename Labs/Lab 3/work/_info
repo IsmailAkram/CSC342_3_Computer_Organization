@@ -1,0 +1,341 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+Eakram_9_19_2021_1_bit_full_adder
+Z0 w1631888012
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3
+Z4 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_1_Bit_Full_Adder.vhd
+Z5 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_1_Bit_Full_Adder.vhd
+l0
+L4
+VA98lWc@`X_a;SQ^bD7dXG2
+!s100 0HP6G<HGD0n_9DV]XdTJ`1
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1632074936
+!i10b 1
+Z8 !s108 1632074936.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_1_Bit_Full_Adder.vhd|
+Z10 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_1_Bit_Full_Adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Abehav_fa
+R1
+R2
+DEx4 work 32 akram_9_19_2021_1_bit_full_adder 0 22 A98lWc@`X_a;SQ^bD7dXG2
+l17
+L9
+VmgB3P<_>F[Cz7CKb88Dcn2
+!s100 ?76_h2z`2TN6z41zXMehB1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eakram_9_19_2021_4_bit_add_sub
+Z13 w1631904951
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z16 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Add_Sub.vhd
+Z17 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Add_Sub.vhd
+l0
+L5
+V4<9EmC:c]G8d2cEnGzYcX2
+!s100 RY@=6lom@Nf@dQPWLhBWD3
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Add_Sub.vhd|
+Z19 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Add_Sub.vhd|
+!i113 1
+R11
+R12
+Abehav_4bas
+R14
+R15
+R1
+R2
+DEx4 work 29 akram_9_19_2021_4_bit_add_sub 0 22 4<9EmC:c]G8d2cEnGzYcX2
+l16
+L12
+V9OPCFjB]5S]RRfmVz>KCL1
+!s100 gfYj?3KhLH71=1?J4_3=Q1
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Eakram_9_19_2021_4_bit_adder
+Z20 w1631889359
+R1
+R2
+R3
+Z21 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Adder.vhd
+Z22 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Adder.vhd
+l0
+L4
+VlcoK38NIU=@jha8Wd=I]<3
+!s100 3U`D=cHUiOIUM=YAY:1Ij1
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Adder.vhd|
+Z24 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_4_Bit_Adder.vhd|
+!i113 1
+R11
+R12
+Abehav_4ba
+R1
+R2
+DEx4 work 27 akram_9_19_2021_4_bit_adder 0 22 lcoK38NIU=@jha8Wd=I]<3
+l19
+L11
+VzIUaSJR?O8m0Y]UmL`1YP2
+!s100 1cW[P:iz:hzTZOYje>S<31
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Eakram_9_19_2021_half_adder
+Z25 w1631887652
+R1
+R2
+R3
+Z26 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd
+Z27 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd
+l0
+L4
+V:SX5c3hi^HH09g_jiDfL=2
+!s100 WY_fbhl[8VRj75]VMZ>4e3
+R6
+32
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd|
+Z29 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Half_Adder.vhd|
+!i113 1
+R11
+R12
+Abehav_ha
+R1
+R2
+DEx4 work 26 akram_9_19_2021_half_adder 0 22 :SX5c3hi^HH09g_jiDfL=2
+l11
+L9
+V2eaeAVn7H<PIGoRYZUG1a3
+!s100 V6RVbJ5n=ZQe0[g:K_5>Q3
+R6
+32
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
+Eakram_9_19_2021_lpm
+Z30 w1632081012
+R1
+R2
+R3
+Z31 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_LPM.vhd
+Z32 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_LPM.vhd
+l0
+L43
+VXMRFV^WAIm_?GETHMX=K31
+!s100 [44cXng;L0^mVZR?b9cQh0
+R6
+32
+Z33 !s110 1632081015
+!i10b 1
+Z34 !s108 1632081015.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_LPM.vhd|
+Z36 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_LPM.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 19 akram_9_19_2021_lpm 0 22 XMRFV^WAIm_?GETHMX=K31
+l84
+L57
+V;>PS_8o9YZlzMXN8[Y^Bk1
+!s100 [l;kJcY7P53z[]DGmnYC]1
+R6
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Eakram_9_19_2021_n_bit_add_sub
+Z37 w1631979070
+R14
+R15
+R1
+R2
+R3
+Z38 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_N_Bit_Add_Sub.vhd
+Z39 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_N_Bit_Add_Sub.vhd
+l0
+L5
+VZJBjDSLNYJzT`C3TVY8G]2
+!s100 MBbCK04QOfBn<0W_ko^Xz2
+R6
+32
+R7
+!i10b 1
+R8
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_N_Bit_Add_Sub.vhd|
+Z41 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_N_Bit_Add_Sub.vhd|
+!i113 1
+R11
+R12
+Abehav_nbas
+R14
+R15
+R1
+R2
+DEx4 work 29 akram_9_19_2021_n_bit_add_sub 0 22 ZJBjDSLNYJzT`C3TVY8G]2
+l18
+L14
+VUBS[YYfWk8ODZcM`jSRMY0
+!s100 AbJ@72gOo8H0M1Jl^X3Fo1
+R6
+32
+R7
+!i10b 1
+R8
+R40
+R41
+!i113 1
+R11
+R12
+Eakram_9_19_2021_n_bit_add_sub_flags
+Z42 w1632074912
+Z43 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z44 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+R14
+R15
+R1
+R2
+R3
+Z45 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 3\Akram_9_19_2021_N_Bit_Add_Sub_Flags.vhd
+Z46 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 3\Akram_9_19_2021_N_Bit_Add_Sub_Flags.vhd
+l0
+L6
+VCGA2OzE2;Nd=V8T>YLCF13
+!s100 S7igRG3CCO`>9]`[E:l^j0
+R6
+32
+R7
+!i10b 1
+R8
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 3\Akram_9_19_2021_N_Bit_Add_Sub_Flags.vhd|
+Z48 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 3\Akram_9_19_2021_N_Bit_Add_Sub_Flags.vhd|
+!i113 1
+R11
+R12
+Abehav_nbasf
+R43
+R44
+R14
+R15
+R1
+R2
+DEx4 work 35 akram_9_19_2021_n_bit_add_sub_flags 0 22 CGA2OzE2;Nd=V8T>YLCF13
+l19
+L15
+V9z3>30S0IQ]=Xj]9GB;LT0
+!s100 k:VLjBf0TVm6IocgaL]fc3
+R6
+32
+R7
+!i10b 1
+R8
+R47
+R48
+!i113 1
+R11
+R12
+Pakram_9_19_2021_package
+R1
+R2
+w1631978352
+R3
+8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Package.vhd
+FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Package.vhd
+l0
+L4
+V_S[0IUi;9nC0jXdB9X3GG0
+!s100 Cn0Oa?iSzD9Ro_BG3FkAM3
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Package.vhd|
+!s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Package.vhd|
+!i113 1
+R11
+R12
+Eakram_9_19_2021_test_bench
+w1632084983
+R1
+R2
+R3
+8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd
+FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd
+l0
+L6
+V?2L1E@[;LW5cjNf]9=Uf31
+!s100 XnK=J]dI00V>V<M^^SUie0
+R6
+32
+!s110 1632084985
+!i10b 1
+!s108 1632084985.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd|
+!s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_Test_Bench.vhd|
+!i113 1
+R11
+R12

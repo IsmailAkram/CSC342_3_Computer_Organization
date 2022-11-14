@@ -1,0 +1,10 @@
+{C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram32x4
+-- Compiling architecture SYN of ram32x4
+
+} {} {}}

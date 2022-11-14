@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Akram_11_14_2021_IMM16 is
+    generic (Akram_imm_size: integer := 16); -- 16-bit IMM16 as specified by instruction; accessed in IR
+	 
+    port (
+        Akram_clock, Akram_write, Akram_read, Akram_enable				: in std_logic;
+        Akram_input																	: in std_logic_vector(Akram_imm_size-1 downto 0); -- 16-bit
+        Akram_out																		: out std_logic_vector(Akram_imm_size-1 downto 0)); -- 16-bit
+end Akram_11_14_2021_IMM16;
+
+architecture arch of Akram_11_14_2021_IMM16 is
+
+    signal Akram_memory														: std_logic_vector(Akram_imm_size-1 downto 0); -- 16-bit
+    
+    begin
+        P1: process(Akram_clock, Akram_write)
+        begin
+            if(rising_edge(Akram_clock) and Akram_write = '1')
+                then Akram_memory <= Akram_input; -- writing to memory
+            end if;
+        end process P1;
+        
+        P2: process(Akram_read, Akram_enable, Akram_memory)
+        begin
+            if(Akram_read = '1' and Akram_enable = '1')
+                then Akram_out <= Akram_memory; -- outputting value in memory
+            elsif(Akram_enable = '0')
+                then Akram_out <= (others => '0'); -- else 0
+            end if;
+        end process P2;
+end arch;

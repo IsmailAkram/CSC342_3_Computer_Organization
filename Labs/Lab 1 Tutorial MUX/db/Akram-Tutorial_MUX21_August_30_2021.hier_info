@@ -1,0 +1,8 @@
+|Akram_Tutorial_MUX21_August_30_2021
+AKRA_Z <= AKRA_gate4.DB_MAX_OUTPUT_PORT_TYPE
+AKRA_B => AKRA_gate3.IN0
+AKRA_S => AKRA_gate3.IN1
+AKRA_S => AKRA_gate1.IN0
+AKRA_A => AKRA_gate2.IN0
+
+

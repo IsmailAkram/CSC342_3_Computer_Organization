@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.qarlog
+
+Archive:	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.qar
+Date:		Wed Sep 01 11:04:31 2021
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.bdf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.qpf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.qsf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram_21MUX.bdf
+c:/altera_lite/16.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Sep 01 17:59:38 2021
+Source archive file:	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021.qar
+Archive was extracted into	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 1 Tutorial MUX/Akram-Tutorial_MUX21_August_30_2021_restored/
+		 - successfully.

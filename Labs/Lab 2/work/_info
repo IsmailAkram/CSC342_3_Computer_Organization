@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/WINDOWS/system32
+Eequal
+Z0 w1630516906
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2
+Z4 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd
+Z5 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd
+l0
+L5
+V^bG0:ij;G7=l<K5PBWo3Q2
+!s100 SPgaZN5bjSkF@l9P^X8El0
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1630516914
+!i10b 1
+Z8 !s108 1630516914.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd|
+Z10 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Aarch
+R1
+R2
+DEx4 work 5 equal 0 22 ^bG0:ij;G7=l<K5PBWo3Q2
+l12
+L10
+VN_Ba_`^eP9ChDe4<nHk]d1
+!s100 NjBn1V^RHb2:D;_WKc01F2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etest_equal
+Z13 w1630522293
+R1
+R2
+R3
+Z14 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\test_equal.vhd
+Z15 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\test_equal.vhd
+l0
+L5
+VNFzLj1lR@l4k1<6HC[kV01
+!s100 SP=1fJ6ZMSeDn^<NMg0jg0
+R6
+32
+Z16 !s110 1630522296
+!i10b 1
+Z17 !s108 1630522296.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\test_equal.vhd|
+Z19 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\test_equal.vhd|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 10 test_equal 0 22 NFzLj1lR@l4k1<6HC[kV01
+l17
+L8
+VCaX1;oe1Mi_D@jP=_0ng_2
+!s100 _O6GX?9]8RM4RBEY3117b2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

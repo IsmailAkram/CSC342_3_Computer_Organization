@@ -1,0 +1,27 @@
+|Akram_9_19_2021_4_Bit_Add_Sub
+A[0] => C.IN1
+A[0] => C.IN1
+A[1] => C.IN1
+A[1] => C.IN1
+A[2] => C.IN1
+A[2] => C.IN1
+A[3] => C.IN1
+A[3] => C.IN1
+B[0] => Bx[0].IN0
+B[1] => Bx[1].IN0
+B[2] => Bx[2].IN0
+B[3] => Bx[3].IN0
+Op => Bx[0].IN1
+Op => Bx[1].IN1
+Op => Bx[2].IN1
+Op => Bx[3].IN1
+Op => Sum.IN1
+Op => C.IN1
+Cf <= C.DB_MAX_OUTPUT_PORT_TYPE
+Ovf <= Ovf.DB_MAX_OUTPUT_PORT_TYPE
+Sum[0] <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[1] <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[2] <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Sum[3] <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+
+

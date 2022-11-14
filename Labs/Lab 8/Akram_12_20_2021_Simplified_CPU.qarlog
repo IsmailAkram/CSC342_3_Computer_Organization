@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.qarlog
+
+Archive:	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.qar
+Date:		Mon Dec 20 04:22:41 2021
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU_Control_Adder.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Control_Unit.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Data_Memory.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_IR.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Register_File.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.qpf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.qsf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.vhd
+c:/altera_lite/16.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

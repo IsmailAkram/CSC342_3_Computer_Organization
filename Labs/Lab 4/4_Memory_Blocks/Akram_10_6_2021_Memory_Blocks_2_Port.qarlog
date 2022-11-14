@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/Akram_10_6_2021_Memory_Blocks_2_Port.qarlog
+
+Archive:	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/Akram_10_6_2021_Memory_Blocks_2_Port.qar
+Date:		Wed Oct 06 17:55:56 2021
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/Akram_10_6_2021_Memory_Blocks_2_Port.qpf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/Akram_10_6_2021_Memory_Blocks_2_Port.qsf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.cmp
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.qip
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.vhd
+c:/altera_lite/16.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

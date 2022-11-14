@@ -1,0 +1,11 @@
+|Akram_D_FlipFlop_Master_Slave
+AKRA_Q <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+AKRA_CLRN => inst1.ACLR
+AKRA_CLRN => inst.ACLR
+AKRA_D => inst.DATAIN
+AKRA_CLK => AKRA_gate1.IN0
+AKRA_CLK => inst1.LATCH_ENABLE
+AKRA_PRN => inst.PRESET
+AKRA_PRN => inst1.PRESET
+
+

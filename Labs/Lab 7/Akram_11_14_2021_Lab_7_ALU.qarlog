@@ -1,0 +1,28 @@
+Quartus Prime Archive log --	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Lab_7_ALU.qarlog
+
+Archive:	C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Lab_7_ALU.qar
+Date:		Sun Nov 14 18:46:57 2021
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 6/Akram_10_15_2021_Lab_6_Register_File.mif
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_3_PORT_RAM.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_ALU.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Bitwise_OP.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Data_Memory.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_IMM16.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Instruction_Register.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Lab_7_ALU.qpf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Lab_7_ALU.qsf
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_MAR.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_MDR.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RD.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RS.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_RT.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_11_14_2021_Sign_Extend.vhd
+C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 7/Akram_9_19_2021_n_Bit_Add_sub_Flags.vhd
+c:/altera_lite/16.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,297 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+Eakram_12_20_2021_alu
+Z0 w1639979158
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8
+Z6 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU.vhd
+Z7 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU.vhd
+l0
+L6
+V[Uo:Q;58P=1_LzdeVzSE60
+!s100 KkB?acO1]:`?H>W0Lb9dL2
+Z8 OV;C;10.4d;61
+32
+Z9 !s110 1639981781
+!i10b 1
+Z10 !s108 1639981780.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU.vhd|
+Z12 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1
+Aarch
+R1
+R2
+R3
+R4
+DEx4 work 20 akram_12_20_2021_alu 0 22 [Uo:Q;58P=1_LzdeVzSE60
+l17
+L14
+V_Giad[8V_?_z[=abmd@zX0
+!s100 YbT5lmci[fd?Gcn;b_`KV1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eakram_12_20_2021_alu_control_adder
+Z15 w1639976619
+R3
+R4
+R5
+Z16 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU_Control_Adder.vhd
+Z17 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU_Control_Adder.vhd
+l0
+L4
+V7<6Xkk@Hjh<0W65TFKST51
+!s100 >?=PSZDzSg3aZOVEG@2RI3
+R8
+32
+R9
+!i10b 1
+Z18 !s108 1639981781.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU_Control_Adder.vhd|
+Z20 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_ALU_Control_Adder.vhd|
+!i113 1
+R13
+R14
+Aarch
+R3
+R4
+DEx4 work 34 akram_12_20_2021_alu_control_adder 0 22 7<6Xkk@Hjh<0W65TFKST51
+l13
+L11
+V6MbEeaf]ln05;>C:JN9l72
+!s100 lQ5<YI>]YjjSdUJD1VeSM3
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Eakram_12_20_2021_control_unit
+Z21 w1639980136
+R3
+R4
+R5
+Z22 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Control_Unit.vhd
+Z23 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Control_Unit.vhd
+l0
+L4
+VBGD`Zl2<?^[mbkV?jeOg80
+!s100 ;UNFeNW30Yj9Z:IO9o?Sf2
+R8
+32
+R9
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Control_Unit.vhd|
+Z25 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Control_Unit.vhd|
+!i113 1
+R13
+R14
+Aarch
+R3
+R4
+DEx4 work 29 akram_12_20_2021_control_unit 0 22 BGD`Zl2<?^[mbkV?jeOg80
+l15
+L13
+VedJBf2hG9^kR=Sl;_mBJ<2
+!s100 6b9^eQ0E0;5b1?CARM3H32
+R8
+32
+R9
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R13
+R14
+Eakram_12_20_2021_data_memory
+Z26 w1639976024
+Z27 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R5
+Z28 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Data_Memory.vhd
+Z29 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Data_Memory.vhd
+l0
+L5
+V^315NEo?E;>5=443;<XkH1
+!s100 S;GieGS=H]RzAJiYcA4:Q2
+R8
+32
+R9
+!i10b 1
+R18
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Data_Memory.vhd|
+Z31 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Data_Memory.vhd|
+!i113 1
+R13
+R14
+Aarch
+R27
+R3
+R4
+DEx4 work 28 akram_12_20_2021_data_memory 0 22 ^315NEo?E;>5=443;<XkH1
+l18
+L12
+VZR074;ISb`1C_YI[_i0f=3
+!s100 M7_c[`n4>ZAL]KLjbOHVh1
+R8
+32
+R9
+!i10b 1
+R18
+R30
+R31
+!i113 1
+R13
+R14
+Eakram_12_20_2021_ir
+Z32 w1639975989
+R27
+R3
+R4
+R5
+Z33 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_IR.vhd
+Z34 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_IR.vhd
+l0
+L5
+V4Sb_UP:2^`Tg0E0kKBUP40
+!s100 XIIRKJePiQ@fk<zzAme;P1
+R8
+32
+R9
+!i10b 1
+R18
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_IR.vhd|
+Z36 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_IR.vhd|
+!i113 1
+R13
+R14
+Aarch
+R27
+R3
+R4
+DEx4 work 19 akram_12_20_2021_ir 0 22 4Sb_UP:2^`Tg0E0kKBUP40
+l36
+L12
+VTA]Y]56Xk==OzBf6]DeL]2
+!s100 cL6YaF8oco61kT0CLc[`c3
+R8
+32
+R9
+!i10b 1
+R18
+R35
+R36
+!i113 1
+R13
+R14
+Eakram_12_20_2021_register_file
+Z37 w1639979398
+R27
+R3
+R4
+R5
+Z38 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Register_File.vhd
+Z39 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Register_File.vhd
+l0
+L5
+Vz`gJZ9CVkEJcaIT?82mRf2
+!s100 S69lSoiakQ_TE6dE8TVX52
+R8
+32
+R9
+!i10b 1
+R18
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Register_File.vhd|
+Z41 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Register_File.vhd|
+!i113 1
+R13
+R14
+Aarch
+R27
+R3
+R4
+DEx4 work 30 akram_12_20_2021_register_file 0 22 z`gJZ9CVkEJcaIT?82mRf2
+l20
+L15
+V6=7=hcO8<[7jPH_N=NH;b0
+!s100 ojIWL8GP4zENdm1_1@0kL2
+R8
+32
+R9
+!i10b 1
+R18
+R40
+R41
+!i113 1
+R13
+R14
+Eakram_12_20_2021_simplified_cpu
+Z42 w1639981484
+R1
+R2
+R3
+R4
+R5
+Z43 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.vhd
+Z44 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.vhd
+l0
+L5
+VASP5k8Z`21kEZJb`KZM632
+!s100 0JM`_RRTS3iOn4XC>CnRc2
+R8
+32
+R9
+!i10b 1
+R18
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.vhd|
+Z46 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 8/Akram_12_20_2021_Simplified_CPU.vhd|
+!i113 1
+R13
+R14
+Aarch
+R1
+R2
+R3
+R4
+DEx4 work 31 akram_12_20_2021_simplified_cpu 0 22 ASP5k8Z`21kEZJb`KZM632
+l87
+L12
+VJadRjeEndWnPDgheE6>IK0
+!s100 Pg2TVC<WN?VmXHE_Y0UeO3
+R8
+32
+R9
+!i10b 1
+R18
+R45
+R46
+!i113 1
+R13
+R14

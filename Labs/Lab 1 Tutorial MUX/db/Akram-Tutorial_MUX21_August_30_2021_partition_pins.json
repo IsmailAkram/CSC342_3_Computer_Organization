@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AKRA_Z",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_B",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_S",
+					"strict" : false
+				},
+				{
+					"name" : "AKRA_A",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

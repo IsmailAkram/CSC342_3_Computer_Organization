@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+Eakram_register_n_vhdl
+Z0 w1632952571
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B
+Z4 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B/Akram_Register_N_VHDL.vhd
+Z5 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B/Akram_Register_N_VHDL.vhd
+l0
+L4
+V7[M40cK8ND8mDM:MLU7ne1
+!s100 ZI3dWkkc7W^XoH5AKmd653
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1632952573
+!i10b 1
+Z8 !s108 1632952573.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B/Akram_Register_N_VHDL.vhd|
+Z10 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B/Akram_Register_N_VHDL.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Aarch
+R1
+R2
+DEx4 work 21 akram_register_n_vhdl 0 22 7[M40cK8ND8mDM:MLU7ne1
+l21
+L16
+Vl[Rm:z>5<mT:me2lIJ3IE3
+!s100 6jLNnI=f@@^4cBJ4Vd50m0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

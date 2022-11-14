@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+Eram32x4
+Z0 w1633317471
+Z1 DPx9 altera_mf 20 altera_mf_components 0 22 JIZVPUohD7dNa?8:C5^LG2
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks
+Z5 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4.vhd
+Z6 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4.vhd
+l0
+L43
+V9XYF73NMI4P7b9WAF1<1T0
+!s100 3<Y4N>RfzVJ`2TWR<S_A?3
+Z7 OV;C;10.4d;61
+32
+Z8 !s110 1633317710
+!i10b 1
+Z9 !s108 1633317710.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4.vhd|
+Z11 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Asyn
+R1
+R2
+R3
+DEx4 work 7 ram32x4 0 22 9XYF73NMI4P7b9WAF1<1T0
+l59
+L55
+VOk;IK<fiL^mFnA0YWbGzg0
+!s100 Fjo?Z[gY>V6?^HQWRS]6f1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eram32x4_port_2
+Z14 w1633551264
+R1
+R2
+R3
+R4
+Z15 8C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.vhd
+Z16 FC:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.vhd
+l0
+L43
+VU04f?iQa5g0aVezMRZ0aE3
+!s100 08PIQWFToacaIGM5UoD[>3
+R7
+32
+Z17 !s110 1633552128
+!i10b 1
+Z18 !s108 1633552127.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.vhd|
+Z20 !s107 C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4_Memory_Blocks/ram32x4_port_2.vhd|
+!i113 1
+R12
+R13
+Asyn
+R1
+R2
+R3
+DEx4 work 14 ram32x4_port_2 0 22 U04f?iQa5g0aVezMRZ0aE3
+l60
+L56
+V;U05LBDQS<4I<e;]P<B?`3
+!s100 a]00R?DndL732iMYW:EaP2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Eram32x4_port_3
+Z21 w1634141384
+R1
+R2
+R3
+R4
+Z22 8C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 4\4_Memory_Blocks\ram32x4_port_3.vhd
+Z23 FC:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 4\4_Memory_Blocks\ram32x4_port_3.vhd
+l0
+L43
+VC34cZn34]jFZOA[3422Yf3
+!s100 OW;3R=f86bCa@1XD1?co62
+R7
+32
+Z24 !s110 1634145507
+!i10b 1
+Z25 !s108 1634145507.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 4\4_Memory_Blocks\ram32x4_port_3.vhd|
+Z27 !s107 C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 4\4_Memory_Blocks\ram32x4_port_3.vhd|
+!i113 1
+R12
+R13
+Asyn
+R1
+R2
+R3
+DEx4 work 14 ram32x4_port_3 0 22 C34cZn34]jFZOA[3422Yf3
+l66
+L61
+V=841RAhOTOcDi4JAK9NmB0
+!s100 SgFMA8i@iJ:4>;U1XLW6h1
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13

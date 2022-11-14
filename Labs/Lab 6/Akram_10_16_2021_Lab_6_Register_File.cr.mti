@@ -1,0 +1,30 @@
+{C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B/Akram_Register_N_VHDL.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 4/4B/Akram_Register_N_VHDL.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Akram_Register_N_VHDL
+-- Compiling architecture arch of Akram_Register_N_VHDL
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_N_Bit_Add_Sub_Flags.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 3/Akram_9_19_2021_N_Bit_Add_Sub_Flags.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity Akram_9_19_2021_N_Bit_Add_sub_Flags
+-- Compiling architecture BEHAV_NBASF of Akram_9_19_2021_N_Bit_Add_sub_Flags
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 6/Akram_10_15_2021_Lab_6_Register_File.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 6/Akram_10_15_2021_Lab_6_Register_File.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity Akram_10_15_2021_Lab_6_Register_File
+-- Compiling architecture SYN of Akram_10_15_2021_Lab_6_Register_File
+
+} {} {}}

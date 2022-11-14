@@ -1,0 +1,216 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_signed.all;
+
+entity Akram_12_20_2021_Simplified_CPU is
+	port(
+		Akram_CLK, Akram_reset: in std_logic; -- clock and reset
+		Akram_PC_out, Akram_ALU_result: out std_logic_vector(31 downto 0)
+	);
+	
+end Akram_12_20_2021_Simplified_CPU;
+
+architecture arch of Akram_12_20_2021_Simplified_CPU is
+
+	signal Akram_pc_current, Akram_pc_next, pc2: std_logic_vector(31 downto 0);
+	signal Akram_instr: std_logic_vector(31 downto 0);
+	signal Akram_reg_dst, Akram_mem_to_reg, Akram_alu_op: std_logic_vector(1 downto 0);
+	signal Akram_jump, Akram_branch,Akram_mem_read,Akram_mem_write,Akram_alu_src,Akram_reg_write: std_logic;
+	signal Akram_reg_write_dest: std_logic_vector(2 downto 0);
+	signal Akram_reg_write_data: std_logic_vector(31 downto 0);
+	signal Akram_reg_read_addr_1: std_logic_vector(2 downto 0);
+	signal Akram_reg_read_data_1: std_logic_vector(31 downto 0);
+	signal Akram_reg_read_addr_2: std_logic_vector(2 downto 0);
+	signal Akram_reg_read_data_2: std_logic_vector(31 downto 0);
+	signal Akram_sign_ext_im,Akram_read_data2,Akram_zero_ext_im,Akram_imm_ext: std_logic_vector(31 downto 0);
+	signal JRControl: std_logic;
+	signal Akram_alu_control: std_logic_vector(2 downto 0);
+	signal Akram_alu_out: std_logic_vector(31 downto 0);
+	signal Akram_zero_flag: std_logic;
+	signal im_shift_1, PC_j, PC_beq, PC_4beq, PC_4beqj,PC_jr: std_logic_vector(31 downto 0);
+	signal beq_control: std_logic;
+	signal jump_shift_1: std_logic_vector(30 downto 0);
+	signal Akram_mem_read_data: std_logic_vector(31 downto 0);
+	signal no_sign_ext: std_logic_vector(31 downto 0);
+	signal sign_or_zero: std_logic;
+	signal tmp1: std_logic_vector(15 downto 0);
+	
+	--declare components
+		component Akram_Data_Memory is
+			port(
+				Akram_clck: in std_logic;
+				Akram_mem_address: in std_logic_vector(31 downto 0);
+				Akram_write_data: in std_logic_vector(31 downto 0);
+				Akram_write_en, Akram_read_en: in std_logic;
+				Akram_data: out std_logic_vector(31 downto 0));
+		end component;
+		
+		component Akram_instruction_memory is
+			port(
+				Akram_pc: in std_logic_vector(31 downto 0);
+				Akram_instruction: out std_logic_vector(31 downto 0));
+		end component;
+		
+		component Akram_ALU is
+			port(
+				Akram_a, Akram_b: in std_logic_vector(31 downto 0);
+				Akram_alu_control: in std_logic_vector(2 downto 0);
+				Akram_result: out std_logic_vector(31 downto 0);
+				Akram_z_flag: out std_logic);
+		end component;
+		
+		component Akram_alu_control_adder is
+			port(
+				Akram_alu_control_main: out std_logic_vector(2 downto 0);
+				Akram_alu_op: in std_logic_vector(1 downto 0);
+				Akram_alu_funct: in std_logic_vector(2 downto 0));
+		end component;
+		
+		component Akram_register_file is
+			port(
+				Akram_clck, Akram_reset: in std_logic;
+				Akram_reg_write_en: in std_logic;
+				Akram_reg_write_dest: in std_logic_vector(2 downto 0);
+				Akram_write_data: in std_logic_vector(31 downto 0);
+				Akram_read_addr_1: in std_logic_vector(2 downto 0);
+				Akram_read_data_1: out std_logic_vector(31 downto 0);
+				Akram_read_addr_2: in std_logic_vector(2 downto 0);
+				Akram_read_data_2: out std_logic_vector(31 downto 0));
+		end component;
+		
+		component Akram_main_control is
+			port(
+				Akram_opcode: in std_logic_vector(2 downto 0);
+				Akram_rst: in std_logic;
+				Akram_reg_dst, Akram_mem_to_reg, Akram_alu_op: out std_logic_vector(1 downto 0);
+				Akram_jump, Akram_branch, Akram_mem_read,Akram_mem_write, Akram_alu_src,Akram_reg_write,Akram_ext: out std_logic);
+		end component;
+	
+	begin
+		--Set the PC to the first instruction
+		process(Akram_CLK,Akram_reset)
+			begin
+				if(Akram_reset='1') then
+					Akram_pc_current <= x"00000000";
+				elsif(rising_edge(Akram_CLK)) then
+					Akram_pc_current <= Akram_pc_next;
+				end if;
+		end process;
+		
+		-- increase pc by 2
+		pc2 <= Akram_pc_current + x"00000001";
+		
+		--instantiate intruction memory
+		Instruction_Memory: Akram_instruction_memory
+			port map(
+				Akram_pc => Akram_pc_current,
+				Akram_instruction => Akram_instr
+			);
+			
+		--jump shift left
+		jump_shift_1 <= Akram_instr(29 downto 0) & '0';
+		
+		--main control unit of our processor
+		control: Akram_main_control
+			port map(
+				Akram_rst => Akram_reset,
+				Akram_opcode => Akram_instr(31 downto 29),
+				Akram_reg_dst => Akram_reg_dst,
+				Akram_mem_to_reg => Akram_mem_to_reg,
+				Akram_alu_op => Akram_alu_op,
+				Akram_jump => Akram_jump,
+				Akram_branch => Akram_branch,
+				Akram_mem_read => Akram_mem_read,
+				Akram_mem_write => Akram_mem_write,
+				Akram_alu_src => Akram_alu_src,
+				Akram_reg_write => Akram_reg_write,
+				Akram_ext => sign_or_zero
+			);
+			--multiplexer regdest
+			Akram_reg_write_dest <= "111" when Akram_reg_dst = "10" else
+				Akram_instr(24 downto 22) when Akram_reg_dst = "01" else
+				Akram_instr(21 downto 19);
+				
+			-- register file instatiation
+			Akram_reg_read_addr_1 <= Akram_instr(28 downto 26);
+			Akram_reg_read_addr_2 <= Akram_instr(25 downto 23);
+			
+			register_file: Akram_register_file
+				port map(
+					Akram_clck => Akram_CLK,
+					Akram_reset => Akram_reset,
+					Akram_reg_write_en => Akram_reg_write,
+					Akram_reg_write_dest => Akram_reg_write_dest,
+					Akram_write_data => Akram_reg_write_data,
+					Akram_read_addr_1 => Akram_reg_read_addr_1,
+					Akram_read_data_1 => Akram_reg_read_data_1,
+					Akram_read_addr_2 => Akram_reg_read_addr_2,
+					Akram_read_data_2 => Akram_reg_read_data_2
+				);
+				
+			-- sign extend
+			tmp1 <= (others => Akram_instr(6));
+			Akram_sign_ext_im <=  tmp1 & Akram_instr(15 downto 0); 
+			Akram_zero_ext_im <= "0000000000000000"& Akram_instr(15 downto 0); 
+			Akram_imm_ext <= Akram_sign_ext_im when sign_or_zero='1' else Akram_zero_ext_im;
+			
+			-- JR control
+			JRControl <= '1' when ((Akram_alu_op="00") and (Akram_instr(3 downto 0)="1000")) else '0';
+			
+			-- ALU control
+			
+			ALUControl: Akram_alu_control_adder port map(
+				Akram_alu_op => Akram_alu_op,
+				Akram_alu_funct => Akram_instr(2 downto 0),
+				Akram_alu_control_main => Akram_alu_control
+				
+			);
+			
+			--multiplexer for alu
+			Akram_read_data2 <= Akram_imm_ext when Akram_alu_src = '1' else Akram_reg_read_data_2;
+			
+			--ALU instantiation
+			ALU: Akram_ALU port map(
+				Akram_a => Akram_reg_read_data_1,
+				Akram_b => Akram_reg_read_data_2,
+				Akram_alu_control => Akram_alu_control,
+				Akram_result => Akram_alu_out,
+				Akram_z_flag => Akram_zero_flag
+			);
+			
+			-- immediate shift 1
+
+			im_shift_1 <= Akram_imm_ext(30 downto 0) & '0';
+			no_sign_ext <= (not im_shift_1) + x"0001";
+			-- PC beq add
+			PC_beq <= (pc2 - no_sign_ext) when im_shift_1(15) = '1' else (pc2 +im_shift_1);
+			-- beq control
+			beq_control <= Akram_branch and Akram_zero_flag;
+			-- PC_beq
+			PC_4beq <= PC_beq when beq_control='1' else pc2;
+			-- PC_j
+			PC_j <= pc2(15) & jump_shift_1;
+			-- PC_4beqj
+			PC_4beqj <= PC_j when Akram_jump = '1' else  PC_4beq;
+			-- PC_jr
+			PC_jr <= Akram_reg_read_data_1;
+			-- PC_next
+			Akram_pc_next <= PC_jr when (JRControl='1') else PC_4beqj;
+			-- data memory of the MIPS Processor in VHDL
+			data_memory: Akram_Data_Memory port map(
+				Akram_clck => Akram_CLK,
+				Akram_mem_address => Akram_alu_out,
+				Akram_write_data => Akram_reg_read_data_2,
+				Akram_write_en => Akram_mem_write,
+				Akram_read_en => Akram_mem_read,
+				Akram_data => Akram_mem_read_data
+			);
+			
+			--Writing back data
+			--Akram_reg_write_data <= pc2 when (Akram_mem_to_reg ="10") else
+				--Akram_mem_read_data when (Akram_mem_to_reg ="01") else Akram_alu_out;
+			Akram_reg_write_data <= Akram_alu_out;
+				
+			Akram_pc_out <= Akram_pc_current;
+			Akram_alu_result <= Akram_alu_out;
+end arch;

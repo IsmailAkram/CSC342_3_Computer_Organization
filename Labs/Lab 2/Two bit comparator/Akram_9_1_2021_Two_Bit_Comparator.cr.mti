@@ -1,0 +1,33 @@
+{C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/test_two_bit_equal.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\test_two_bit_equal.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_two_bit_equal
+-- Compiling architecture arch_test of test_two_bit_equal
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal_port.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal_port.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_bit_equal_port
+-- Compiling architecture arch of two_bit_equal_port
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/Two bit comparator/two_bit_equal.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\Two bit comparator\two_bit_equal.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_bit_equal
+-- Compiling architecture arch of two_bit_equal
+
+} {} {}} {C:/Users/Izzy/OneDrive/College/CSC342_3 Computer Organization/Labs/Lab 2/equal.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Izzy\OneDrive\College\CSC342_3 Computer Organization\Labs\Lab 2\equal.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity equal
+-- Compiling architecture arch of equal
+
+} {} {}}
